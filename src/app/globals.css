@@ -16,12 +16,12 @@
   }
 }
 
+::selection {
+  color: #4e7787;
+  background: #D6D3D1;
+}
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: #FFFFFF;
+  background: #15202B;
 }
