@@ -3,7 +3,7 @@
 import { revalidatePath } from "next/cache"
 
 export async function create(data) {
-    const url = "http://localhost:8080/conta/cadastro"
+    const url = "process.env.NEXT_PUBLIC_API_URL + /conta/cadastro"
 
     const options = {
         method: "POST",
